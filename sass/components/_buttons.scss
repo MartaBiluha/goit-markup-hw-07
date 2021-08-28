@@ -13,7 +13,7 @@
     border-color: $accentColor;
   }
 
-  .modal_closing-button {
+  .modal__closing-button {
     position: absolute;
     right: 0;
     top: 0;
@@ -36,7 +36,7 @@
   }
   }
   
-  .form-field_button {
+  .form-field__button {
     display: block;
     width: 200px;
     height: 50px;
@@ -62,7 +62,7 @@
     }
     
     
-    .bottom-form-field_subscribing-button {
+    .bottom-form-field__subscribing-button {
         display: flex;
         width: 200px;
         height: 50px;
@@ -83,7 +83,7 @@
       .secondary-button-section {
         list-style-type: none;
 
-        &_item {
+        &__item {
             margin-right: 8px;
 
             &:last-child {
@@ -91,7 +91,7 @@
               }
           }
 
-          &_button {
+          &__button {
             font-family: Roboto;
             font-style: normal;
             font-weight: 500;

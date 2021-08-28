@@ -5,7 +5,7 @@
     padding-top: 94px;
     padding-bottom: 94px;
 
-    &_title {
+    &__title {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
@@ -29,12 +29,12 @@
         margin-right: 0;
       }
 
-      &_data {
+      &__data {
         padding-top: 30px;
         padding-bottom: 30px;
       }
 
-      &_name {
+      &__name {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.19;
@@ -46,7 +46,7 @@
         margin-bottom: 0px;
       }
       
-      &_specialization {
+      &__specialization {
         font-size: 16px;
         line-height: 1.19;
         text-align: center;
@@ -57,12 +57,12 @@
       
   }
   
-  .container .section-team_list {
+  .container .section-team__list {
     display: flex;
     justify-content: space-between;
   }
   
-  .section-team_list {
+  .section-team__list {
     list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;

@@ -13,7 +13,7 @@
     margin-top: 0;
     padding: 0;
 
-    &_title {
+    &__title {
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
@@ -22,7 +22,7 @@
         color: $titleTextColor;
   }
 
-  &_icon-box {
+  &__icon-box {
     display: block;
     text-align: center;
     align-items: center;
@@ -33,7 +33,7 @@
     padding-top: 25px;
   }
 
-  &_box {
+  &__box {
     width: 270px;
     margin-right: 30px;
     padding-right: 0 0 0 0;

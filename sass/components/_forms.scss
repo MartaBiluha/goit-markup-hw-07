@@ -6,7 +6,7 @@
     margin-right: 40px;
   
 
-    &_title {
+    &__title {
         margin-top: 40px;
         margin-bottom: 12px;
         text-align: center;
@@ -17,7 +17,7 @@
         color: $titleTextColor;
       }
 
-      &_input-section {
+      &__input-section {
         position: relative;
         display: flex;
         flex-direction: column;
@@ -31,7 +31,7 @@
           }
       }
 
-      &_icon {
+      &__icon {
         position: absolute;
         left: 0;
         top: 0;
@@ -39,12 +39,12 @@
         margin-left: 15px;
         @include transitioning (fill);
 
-        .form-field_input-field:focus + & {
+        .form-field__input-field:focus + & {
             fill: $accentColor;
         }
         }
 
-        &_input-field {
+        &__input-field {
             display: block;
             height: 40px;
             border: 1px solid $formBorderColor;
@@ -58,7 +58,7 @@
               }
         }
           
-          &_comment-area {
+          &__comment-area {
             display: block;
             height: 120px;
             border: 1px solid $formBorderColor;
@@ -76,7 +76,7 @@
               
           }
 
-          &_checkbox-section {
+          &__checkbox-section {
             display: flex;
           font-size: 14px;
           line-height: 24px;
@@ -86,7 +86,7 @@
           margin-left: 12px;
           }
 
-          &_checkbox {
+          &__checkbox {
             position: absolute;
             width: 1px;
             height: 1px;
@@ -97,7 +97,7 @@
             overflow: hidden;
           }
 
-          &_custom-checkbox {
+          &__custom-checkbox {
             display: inline-block;
             width: 16px;
             height: 15px;
@@ -107,7 +107,7 @@
             margin-right: 8px;
 
 
-  .form-field_checkbox:checked + & {
+  .form-field__checkbox:checked + & {
     background-color: $accentColor;
     border: 2px solid $accentColor;
     background-image: url(../images/Vector-2.svg);
@@ -115,7 +115,7 @@
   }
           }
 
-          &_agreement-acceptance-link {
+          &__agreement-acceptance-link {
             color: $accentColor;
             margin-left: 4px;
           }
@@ -126,7 +126,7 @@
     display: flex;
     align-items: flex-end;
 
-    &_subscribing-section {
+    &__subscribing-section {
         display: flex;
         flex-direction: column;
         margin-left: 93px;
@@ -138,7 +138,7 @@
         color: $secondaryTextColor;
         }
 
-        &_email {
+        &__email {
             margin-top: 20px;
             width: 358px;
             height: 50px;

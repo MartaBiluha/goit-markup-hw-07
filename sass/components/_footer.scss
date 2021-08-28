@@ -6,6 +6,7 @@ footer {
   }
   
   address {
+    font-style: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -19,7 +20,7 @@ footer {
   justify-content: space-between;
   }
   
-  .bottom-contact-section_logo {
+  .bottom-contact-section__logo {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -43,7 +44,7 @@ footer {
     padding-left: 0;
     margin-bottom: 0px;
 
-    &_link {
+    &__link {
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
@@ -57,7 +58,7 @@ footer {
             }
       }
 
-      &_item:first-child {
+      &__item:first-child {
         margin-bottom: 9px;
       }
   }
@@ -66,7 +67,7 @@ footer {
   .bottom-social-network-link-section {
     margin-left: 70px;
 
-    &_title {
+    &__title {
         font-weight: bold;
         font-size: 14px;
         line-height: 16px;
@@ -84,7 +85,7 @@ footer {
     justify-content: start;
     padding-left: 0;
 
-    &_link {
+    &__link {
         display: flex;
         width: 44px;
         height: 44px;
@@ -101,14 +102,14 @@ footer {
   }
       }
     
-    &_item {
+    &__item {
         margin-right: 10px;
 
         &:last-child {
             margin-right: 0;
           }
         }
-        &_icon {
+        &__icon {
             margin: auto;
             }
   }

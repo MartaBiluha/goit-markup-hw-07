@@ -1,7 +1,7 @@
 .section-activity {
     padding-bottom: 94px;
     
-    &_title {
+    &__title {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
@@ -22,7 +22,7 @@
     padding: 0;
     display: flex;
 
-    &_item {
+    &__item {
         margin-right: 30px;
         display: block;
         height: 294px;
@@ -37,7 +37,7 @@
           }
       }
 
-      &_description {
+      &__description {
         position: absolute;
         left: 0;
         bottom: 0;
