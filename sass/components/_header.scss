@@ -88,7 +88,14 @@ header {
         margin-left: 0
       }
   }
-  
+
+  .opened-page {
+    color: #2196f3;
+
+    &::after{
+      opacity: 1;
+    }
+  }
   
   .contacts {
     list-style-type: none;
